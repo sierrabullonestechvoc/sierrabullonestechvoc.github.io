@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>e-Learning Website</title>
+    <style>
+        html {
+            scroll-behavior:smooth;
+        }
+        body {
+            box-sizing:border-box;
+            background:#202640;
+            font-family:monserat;
+            margin:0;
+        }
+        
+        nav {
+            width:90vw;
+            display:flex;
+            list-style-type:none;
+            justify-content:space-between;
+            align-self:center;
+            margin:1rem;
+            
+        }
+        li:nth-child(1) > a {
+            background:none;
+            color:#e80030;
+        }
+        
+        li:nth-child(2) > a {
+            background:none;
+            color:#0faf7d;
+        }
+        li:nth-child(3) > a {
+            background:none;
+            color:violet;
+        }
+        li:nth-child(4) > a {
+            background:none;
+            color:yellow;
+        }
+        li:nth-child(5) > a {
+            background:none;
+            color:orange;
+        }
+        section {
+            max-width:100vw;
+            min-height:100vh;
+            padding:1rem;
+            
+        }
+        p.wlcm {
+            text-align:justify;
+            color:white;
+            margin-bottom:30px;
+        }
+        h1 {
+            font-size:2rem;
+            color: white;
+            padding:1rem;
+            margin:0;
+        }
+        h2 {
+            font-size:2rem;
+            color:white;
+            margin-bottom:2rem;
+            margin-top:2rem;
+        }
+        a {
+            text-decoration:none;
+        }
+        a.btn {
+            text-decoration:none;
+            color:white;
+            width:3rem;
+            height:2rem;
+            border:3px solid white;
+            padding:0.5rem;
+            margin:auto;
+            border-radius:50px;
+        }
+        a.btn2 {
+            text-decoration:none;
+            color:#2aff96;
+            width:3rem;
+            height:1rem;
+            border:3px solid #2aff96;
+            padding:0.5rem;
+            margin:2rem 0.5rem;
+            border-radius:50px;
+            align-self:center;
+            
+        }
+        div{
+            margin:auto;
+            max-width:100vw;
+            max-height:100vh;
+        }
+        section.lvl {
+            background:#1a1e33;
+        }
+        div.lvl{
+            padding:auto;
+            justify-content:center;
+            align-items:center;
+            
+        }
+        a#sin {
+            padding: auto 50px;
+        }
+        form{
+            color:white;
+            text-align:left;
+        }
+        input, textarea {
+            background:white;
+        }
+        h3, p {
+            color:white;
+        }
+        div.mail{
+            margin-top:2rem;
+            background:#509f92;
+            padding:1rem;
+            font-size:1rem;
+            border-radius:25% 0;
+            
+        }
+        img.banner {
+            width:100%;
+            height:50vh;
+            border-radius:3%;
+        }
+        li > img {
+            width:100%;
+            height:60%;
+            margin:auto;
+        }
+        div.we {
+            display:flex;
+            list-style-type:none;
+            flex-grow:1;
+            justify-content:space-between;
+            text-align:center;
+            color:white;
+            margin-bottom:-70px;
+            
+        }
+        footer {
+            font-size:18px;
+            color:white;
+            margin-top:75px;
+            position: initial;
+        }
+        .tm {
+            font-size:18px;
+        }
+        a.top {
+            text-decoration:none;
+            color:#2aff96;
+            width:3rem;
+            height:1rem;
+            border:3px solid #2aff96;
+            padding:0.5rem;
+            margin-bottom:100px;
+            border-radius:50px;
+            align-self:center;
+        }
+    </style>
+</head>
+<body id="top">
+        <nav>
+       
+            <li class=""><a href="">HOME</a></li>
+            <li class=""><a href="">MISSION</a></li>
+            <li class=""><a href="">VISION</a></li>
+            <li class=""><a href="#abt">ABOUT</a></li>
+            <li class=""><a href="">SBTVHS</a></li>
+        
+    </nav>
+<h1>Hello, good day!</h1>
+<section>
+        
+<center><div>
+    <img src="Banners.png" class="banner" alt="" width="90vw" height="auto"></img>
+</div></center>
+<div class=""><p class="wlcm">Welcome to our custom built e-Learing website. We made it in compliance with the PR3 medium of research, enjoy!!<br>-Group 2</p> <a href="#sec2"  class="btn">Let's get started!</a></div>
+</section>
+<section class="lvl" id="sec2">
+    <div class="lvl" >
+        <center>
+            <h2>Choose your current year level.</h2>
+        <a href="" class="btn2">XI - Zuckerberg </a>
+        <a href="" class="btn2" id="sin">&nbsp;XII - Sincerity&nbsp;</a>
+        <br><br><br><br>
+       <div class="mail">
+           <h3>Having issues or suggestions?</h3>
+           <p>Consider sending us a message.</p>
+           <form action="mailto: samdigawan29@gmail.com">
+               Name: <input type="text"><br>
+               Grade: 11<input type="radio" name="1"> 12<input type="radio" name="1"><br><br>
+               <textarea cols="35" rows="5" placeholder="Type here..."></textarea><br><br>
+               <input type="submit" value="Send">
+               
+           </form>
+       </div>
+        </center>
+    </div>
+</section>
+<section id="abt">
+    <h2>ABOUT</h2>
+    <hr><center><p class="tm">The Team</p></center><hr>
+    <div class="we">
+        <li class="tm"><img src="Banners.png" alt=""><br>Group 2</li>
+    </div>
+    <center><a href="#top" class="top">TOP</a></center>
+    <center><footer>All Rights Reserved | 2022 | sammythenewbie</footer></center>
+</section>
+
+</body>
+</html>
